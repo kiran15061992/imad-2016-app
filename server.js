@@ -10,15 +10,15 @@ app.get('/', function (req, res) {
 });
 
 
-app.get('/artilce-1', function(req,res){
+app.get('/article-1', function(req,res){
   res.sendfile('Article-1 requested and will be served soon');  
 });
 
-app.get('/artilce-2', function(req,res){
+app.get('/article-2', function(req,res){
   res.sendfile('Article-2 requested and will be served soon'); 
 });
 
-app.get('/artilce-3', function(req,res){
+app.get('/article-3', function(req,res){
   res.sendfile('Article-3 requested and will be served soon');  
 });
 
